@@ -37,3 +37,16 @@ Idris> :t 2 + 2
 Idris> :t Type
 Type : Type 1
 ```
+
+## Pag 19 - 1.4.3
+### Example running exec from the repl
+```
+Main> :exec main
+Hello, World!
+```
+ vs 
+
+```
+*Hello> :exec
+Hello, World!
+```
