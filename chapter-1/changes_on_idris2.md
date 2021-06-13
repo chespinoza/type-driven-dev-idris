@@ -50,3 +50,16 @@ Hello, World!
 *Hello> :exec
 Hello, World!
 ```
+
+## Pag 21 
+### Checking the type of the converter hole
+```
+Main> :t Main.convert
+Main.convert : Char -> String
+```
+ vs 
+
+```
+*Hello> :t convert
+convert : Char -> String
+```
