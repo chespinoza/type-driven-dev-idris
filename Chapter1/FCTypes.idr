@@ -16,3 +16,5 @@ valToString : (x : Bool) -> StringOrInt x -> String
 valToString x val = case x of
     True => cast val
     False => val
+    --True => ?xTrueType
+    --False => ?xFalseType
