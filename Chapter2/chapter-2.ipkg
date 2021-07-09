@@ -1,0 +1,2 @@
+package chapter-2
+depends = prelude
